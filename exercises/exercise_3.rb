@@ -12,10 +12,13 @@ puts "----------"
 # Your code goes here ...
 
 @store3 = Store.third()
-@store3.destroy
+if(@store3)
+  @store3.destroy
+end
 
 @store3 = Store.find_by(id: '3')
 if(!@store3) 
   puts "The third store is deleted from database."
 end
+
 puts "Number of stores is #{Store.count}."

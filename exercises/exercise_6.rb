@@ -24,9 +24,9 @@ puts "----------"
 #   Create a bunch under `@store1` (Burnaby) and `@store2` (Richmond). Eg: `@store1.employees.create(...)`.
 # # Your code goes here ...
 
-@store1.employee.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
-@store1.employee.create(first_name: "Alexandra", last_name: "Green", hourly_rate: 50)
-@store1.employee.create(first_name: "George", last_name: "Blanden", hourly_rate: 55)
-@store2.employee.create(first_name: "Steven", last_name: "King", hourly_rate: 65)
-@store2.employee.create(first_name: "John", last_name: "Snow", hourly_rate: 52)
-@store2.employee.create(first_name: "Aya", last_name: "Stark", hourly_rate: 48)
+@store1.employees.create(first_name: "Khurram", last_name: "Virani", hourly_rate: 60)
+@store1.employees.create(first_name: "Alexandra", last_name: "Green", hourly_rate: 50)
+@store1.employees.create(first_name: "George", last_name: "Blanden", hourly_rate: 55)
+@store2.employees.create(first_name: "Steven", last_name: "King", hourly_rate: 65)
+@store2.employees.create(first_name: "John", last_name: "Snow", hourly_rate: 52)
+@store2.employees.create(first_name: "Aya", last_name: "Stark", hourly_rate: 48)
